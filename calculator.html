@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Basic Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calculator">
+        <!-- Calculator display -->
+        <input type="text" id="calculator-display" readonly>
+
+        <!-- Calculator buttons -->
+        <button style=background-color:azure; class="btn" onclick="addToDisplay('1')">1</button>
+        <button style=background-color:azure; class="btn" onclick="addToDisplay('2')">2</button>
+        <button style=background-color:azure; class="btn" onclick="addToDisplay('3')">3</button>
+        <button style=background-color:azure; class="btn" onclick="addToDisplay('4')">4</button>
+        <button style=background-color:azure; class="btn" onclick="addToDisplay('5')">5</button>
+        <button style=background-color:azure; class="btn" onclick="addToDisplay('6')">6</button>
+        <button style=background-color:azure; class="btn" onclick="addToDisplay('7')">7</button>
+        <button style=background-color:azure; class="btn" onclick="addToDisplay('8')">8</button>
+        <button style=background-color:azure; class="btn" onclick="addToDisplay('9')">9</button>
+        <button class="btn" onclick="calculate()">=</button>
+        <button style=background-color:azure; class="btn" onclick="addToDisplay('0')">0</button>
+        <button class="btn" onclick="clearDisplay()">AC</button>
+        <button class="btn" onclick="addition()">+</button>
+        <button class="btn" onclick="subtraction()">-</button>
+        <button class="btn" onclick="decimal()">.</button>
+        <button class="btn" onclick="division()">%</button>
+        <button class="btn" onclick="multiplication()">*</button>
+        <button class="btn" onclick="backspace()">(X)</button>
+ 
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
